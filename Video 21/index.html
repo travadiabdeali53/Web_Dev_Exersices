@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity in CSS</title>
+    <style>
+
+        /* Element Selector */
+        h1{
+            color: orange;
+        }
+
+        /*Class Selector  */
+        .cred{
+            color: red;
+        }
+
+        .cyellow{
+            color: yellow;
+        }
+        .purple{
+            color: purple;
+        }
+
+        /* Attribute Selector */
+        [data-x=a]{
+            color: blue;
+        }
+
+        /* Universal Selector */
+
+        /* Decendant Selector */
+
+        /* Specificity : 1 + 10 + 10 + 10 + 10  = 41*/
+
+        a.abdeali.quresh-class[href]:hover{
+             color: brown;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1 class="cred cyellow purple" data-x="a">CSS Specificiy</h1>
+    </div>
+</body>
+</html>
+
+<!-- universal(0) < element(1) < class and attribute(10) < id selector(100) < inline CSS(1000) -->
