@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-4</title>
+    <style>
+        :root {
+            --color: #101010;
+            --seccolor: #f0f0f0;
+            --pcolor: #708dc6;
+            --font: 'Arial', sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .navbar ul li {
+            display: inline-block;
+            padding: 10px;
+            margin: 10px 10px 0px 10px;
+            border: var(--color) 2px solid;
+            background-color: var(--pcolor);
+            font-family: var(--font);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: var(--seccolor);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
