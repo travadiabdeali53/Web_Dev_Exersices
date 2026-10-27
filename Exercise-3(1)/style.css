@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(222, 222, 222);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  height: 480px;
+  width: 300px;
+  background-color: white;
+  margin: auto;
+  border-radius: 8px;
+  margin-top: 25px;
+}
+
+.image {
+  display: flex;
+  padding-top: 12px;
+  justify-content: center;
+}
+
+img {
+  border-radius: 12px;
+}
+
+.capsule{
+    margin-top: 15px;
+    margin-left: 18px;
+}
+
+.capsule span{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px 14px;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading{
+    margin-top: 20px;
+    margin-left: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: gray;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  margin: 15px 17px;
+  font-weight: lighter;
+}
+
+
+.btn{
+    margin: auto;
+    margin-top: 45px;
+    border-radius: 20px;
+    background-color: skyblue;
+    color: blue;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
