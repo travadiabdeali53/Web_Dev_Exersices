@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-6</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+        .logo img {
+            width: 75px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: 'Martel Sans', sans-serif;
+        }
+
+        .right ul {
+            display: flex;
+            list-style-type: none;
+            gap: 25px;
+        }
+
+        .right ul li {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 13px;
+
+        }
+
+        main {
+            margin: 80px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 260px 260px 260px;
+            /* grid-template-rows: 50px 50px 50px; */
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgb(243, 243, 243);
+            border-radius: 5px;
+            height: 130px;
+            font-family: 'Martel Sans', sans-serif;
+        }
+
+        .box div {
+            margin: 20px 5px;
+            padding: 0px 5px;
+        }
+
+        .box span {
+            padding: 9px 10px;
+            border-radius: 5px;
+            font-size: 13px;
+            margin-right: 3px;
+            cursor: pointer;
+            font-family: 'Martel Sans', sans-serif;
+            font-size: 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .color-1 {
+            color: white;
+            background-color: rgb(92, 193, 233);
+        }
+
+        .color-2 {
+            color: white;
+            background-color: rgb(17, 165, 17);
+        }
+
+        span a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo-IZtHcqRe.webp" alt="img">
+            </div>
+            <div class="right">
+                <ul>
+                    <li>Products<svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>Pricing<svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>Resources<svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+                    <li>About Us<svg width="17" height="17" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9"
+                                stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></li>
+
+                    <li>
+                        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="box1 box">
+                <div>English</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div>Deutsch</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div>Italiano</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div>Espanol</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box5 box">
+                <div>francals</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box6 box">
+                <div>Portuguiz</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box7 box">
+                <div>Chinez</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box8 box">
+                <div>Japaniz</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box9 box">
+                <div>Korian</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+            <div class="box10 box">
+                <div>Indian</div>
+                <div>
+                    <span class="color-1"><a href="logo-IZtHcqRe.webp">Download 32-bit</a></span>
+                    <span class="color-2"><a href="logo-IZtHcqRe.webp">Download 64-bit</a></span>
+                </div>
+            </div>
+    </main>
+</body>
+
+</html>
